@@ -8,14 +8,14 @@ class Solution {
             }
         }
         for(int i:nums2){
-if(set.contains(i)){
+            if(set.contains(i)){
                 result.add(i);
             }
         }
         int[] arr = new int[result.size()];
-        int index=0;
-        for(int i:result){
-            arr[index++]=i;
+        int index = 0;
+        for(int i :result){
+            arr[index++] = i;
         }
         return arr;
     }
